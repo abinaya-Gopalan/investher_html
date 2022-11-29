@@ -13,7 +13,7 @@
 .outside-frame-desktop1 {
   top: 0px;
   left: 0px;
-  width: 1440px;
+  width: 100%;
   height: 1024px;
   display: flex;
   overflow: hidden;
@@ -24,19 +24,13 @@
   background-color: rgba(255, 252, 252, 1);
 }
 .outside-frame-homebg1 {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 303px;
   position: absolute;
   border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
-  border-width: 1px;
 }
 .outside-frame-frame3 {
   top: 0px;
   left: 0px;
-  width: 1440px;
+  width: 100%;
   height: 1024px;
   display: flex;
   overflow: hidden;
@@ -66,8 +60,6 @@
 .outside-frame-body {
   top: 303px;
   left: 0px;
-  width: 1440px;
-  height: 721px;
   position: absolute;
   border-color: transparent;
 }
@@ -124,11 +116,11 @@
 }
 .outside-frame-text08 {
   top: 75px;
-  left: 65px;
+  left: 105px;
   color: rgba(86, 83, 83, 1);
   height: auto;
   position: absolute;
-  font-size: 30px;
+  font-size: 20px;
   align-self: auto;
   font-style: Bold;
   text-align: left;
@@ -142,11 +134,11 @@
 }
 .outside-frame-text10 {
   top: 162px;
-  left: 65px;
+  left: 105px;
   color: rgba(86, 84, 84, 1);
   height: auto;
   position: absolute;
-  font-size: 30px;
+  font-size: 20px;
   align-self: auto;
   font-style: Bold;
   text-align: left;
@@ -161,16 +153,16 @@
 .outside-frame-loginbutton {
   top: 65px;
   left: 244px;
-  width: 198px;
-  height: 54px;
+  width: 150px;
+  height: 40px;
   position: absolute;
   border-color: transparent;
 }
 .outside-frame-loginbutton1 {
   top: 152px;
   left: 244px;
-  width: 198px;
-  height: 54px;
+  width: 150px;
+  height: 40px;
   position: absolute;
   border-color: transparent;
 }
@@ -200,14 +192,42 @@
   height: 67px;
   position: absolute;
   border-color: transparent;
+  color: rgba(73, 71, 71, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  font-family: Hanuman;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 .outside-frame-loginbutton3 {
-  top: 406px;
+  top: 375px;
   left: 170px;
   width: 148px;
   height: 67px;
   position: absolute;
   border-color: transparent;
+  color: rgba(73, 72, 72, 1);
+  width: 124px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  font-family: Hanuman;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 .outside-frame-text14 {
   top: 285px;
@@ -229,12 +249,12 @@
   text-decoration: none;
 }
 .outside-frame-text16 {
-  top: 370px;
-  left: 106px;
+  top: 330px;
+  left: 150px;
   color: rgba(82, 78, 78, 1);
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   align-self: auto;
   font-style: Regular;
   text-align: left;
